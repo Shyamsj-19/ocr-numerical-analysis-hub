@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style>
+        /* Basic styling for the body */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Container styles */
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Style for the main header */
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 40px;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style for the Home button */
+        a {
+            margin: 20px 0;
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #764ba2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-size: 1.3em;
+            border: 2px solid #fff;
+        }
+
+        /* Hover effect for the Home button */
+        a:hover {
+            background-color: #5a3d8c;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to OCR & Numerical Analysis Hub</h1>
+
+        <!-- Links to Endpoints -->
+        <a href="/endpoint-1">OCR - Extract Text from Image</a>
+        <br><br>
+        <a href="/endpoint-2">Compute Measures from Numbers</a>
+        
+        <!-- Home Button -->
+        <a href="/">Home</a>
+    </div>
+</body>
+
+</html>
